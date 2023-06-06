@@ -1,0 +1,45 @@
+.etiquetas>div {
+  width: 264.6px;
+  height: 192px;
+  border: 1px black;
+
+  div {
+    height: 30px;
+  }
+
+  div:first-child {
+    margin-top: 25px;
+    font-weight: bold;
+  }
+
+  div:nth-child(2) {
+    font-weight: bold;
+  }
+
+  div:nth-child(3) {
+    font-weight: bold;
+    color: red;
+  }
+
+  div:nth-child(4) {
+    font-weight: bold;
+    margin-top: 35px;
+    span {
+      background-color: chartreuse;
+    }
+  }
+}
+
+.last-row {
+  margin-top: 300px;
+}
+
+.background-ballesol>div>div {
+  background-image: url('../../assets/ballesol.jpg');
+  background-size: 100% 100%;
+}
+
+.background-ita>div>div {
+  background-image: url('../../assets/ita.png');
+  background-size: 100% 100%;
+}
